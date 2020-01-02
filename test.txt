@@ -1,0 +1,35 @@
+Packageges needed
+
+1. Package Control
+------------------------------------------------------
+comd: Package Control Install 
+	Theme
+	Color Theme
+	File Icons
+
+	Bracket Highlighter
+	Sidebar Enhancemetns
+
+	Anaconda (python specific package)
+
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "/home/cpf/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/sortImports.py", line 11, in <module>
+    import isort.main
+  File "/home/cpf/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/lib/python/isort/main.py", line 29, in <module>
+    import setuptools
+  File "/home/cpf/Documents/learn/python_the_hard_way/venv/lib/python3.8/site-packages/setuptools/__init__.py", line 20, in <module>
+    from setuptools.dist import Distribution, Feature
+  File "/home/cpf/Documents/learn/python_the_hard_way/venv/lib/python3.8/site-packages/setuptools/dist.py", line 35, in <module>
+    from setuptools import windows_support
+  File "/home/cpf/Documents/learn/python_the_hard_way/venv/lib/python3.8/site-packages/setuptools/windows_support.py", line 2, in <module>
+    import ctypes
+  File "/home/cpf/bin/python3.8.1/lib/python3.8/ctypes/__init__.py", line 7, in <module>
+    from _ctypes import Union, Structure, Array
+ModuleNotFoundError: No module named '_ctypes'
